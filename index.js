@@ -9,7 +9,7 @@ function upperCaseCustomerName() {
 customerName = customerName.toUpperCase()
 return customerName
 }
-
+// the above part confused me. I would have just tried to return the global variable rather than creating a new uppcase variable in scope
 console.log(upperCaseCustomerName(bob));
 
 function setBestCustomer() {
